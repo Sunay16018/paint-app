@@ -1,0 +1,46 @@
+{
+    "name": "Paint Pro — Profesyonel Çizim",
+    "short_name": "Paint Pro",
+    "description": "Profesyonel mobil ve masaüstü çizim uygulaması. Kalem, fırça, şekiller, flood fill, simetri, ızgara ve daha fazlası.",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#0a0f1a",
+    "background_color": "#0a0f1a",
+    "lang": "tr",
+    "categories": ["productivity", "utilities", "graphics"],
+    "screenshots": [],
+    "icons": [
+        {
+            "src": "icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Yeni Çizim",
+            "short_name": "Yeni",
+            "description": "Yeni bir çizim başlat",
+            "url": "./index.html?action=new",
+            "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "share_target": {
+        "action": "./index.html",
+        "method": "GET",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url"
+        }
+    }
+}
